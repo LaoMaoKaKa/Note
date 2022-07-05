@@ -15,8 +15,7 @@
 
 
 
-# 大佬们的开源框架（收集） 
-先后不分排名
+# 大佬们的开源框架（仅做收集） 
 >* [ET](https://github.com/egametang/ET)
 >* [GameFramework](https://github.com/EllanJiang/GameFramework)
 >* [FinalFramework](https://github.com/jarjin/FinalFramework)
