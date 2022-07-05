@@ -4,7 +4,7 @@
 
 
 #### 目录  
->* [MT Framework(未开源)](https://github.com/LaoMaoKaKa/MT/tree/main)
+>* [MT Framework(未开源)](https://github.com/LaoMaoKaKa/MT-Framework)
 >* [五子棋](https://github.com/LaoMaoKaKa/Gobang)
 
 
