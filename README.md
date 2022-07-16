@@ -7,7 +7,7 @@ MT Framework(个人打造的框架) | [尚未开源](https://github.com/LaoMaoKa
 编辑器扩展工具 | [Editor-Tools](https://github.com/LaoMaoKaKa/Editor-Tools)
 迷途 2D地牢 | [尚未开源](https://github.com/LaoMaoKaKa/MT-Framework)
 小兵突击 3D RPG 小游戏 | [尚未开源](https://github.com/LaoMaoKaKa/MT-Framework)
-斗地主 | [尚未开源](https://github.com/LaoMaoKaKa/MT-Framework)
+斗地主 | [尚未开源](https://github.com/LaoMaoKaKa/Fight-the-Landlord)
 消消乐 | [尚未开源](https://github.com/LaoMaoKaKa/MT-Framework)
 笨鸟先飞 | [尚未开源](https://github.com/LaoMaoKaKa/MT-Framework)
 五子棋 | [Gobang](https://github.com/LaoMaoKaKa/Gobang)
