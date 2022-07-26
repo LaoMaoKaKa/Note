@@ -6,7 +6,7 @@
 --- | ---
 MT Framework(个人打造的框架) | [尚未开源](https://github.com/LaoMaoKaKa/MT-Framework)
 编辑器扩展工具 | [Editor-Tools](https://github.com/LaoMaoKaKa/Editor-Tools)
-迷途 横板2D地牢 | [尚未开源](https://github.com/LaoMaoKaKa/MT-Framework)
+迷途 2D横板地牢 | [尚未开源](https://github.com/LaoMaoKaKa/MT-Framework)
 小兵大作战 3D RPG 小游戏 | [尚未开源](https://github.com/LaoMaoKaKa/Tiny-Troopers)
 单机斗地主 | [尚未开源](https://github.com/LaoMaoKaKa/Fight-the-Landlord)
 糖果消除 | [尚未开源](https://github.com/LaoMaoKaKa/Candy-Elimination)
