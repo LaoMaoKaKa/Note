@@ -33,7 +33,9 @@ MT Framework(个人打造的框架) | [尚未开源](https://github.com/LaoMaoKa
 >* [QFramework](https://github.com/liangxiegame/QFramework)
 >* [JEngine](https://github.com/JasonXuDeveloper/JEngine)
 
-## 🤺 开源游戏收集
+## 🤺 开源游戏收集(没有一一去验证过的)
 描述 | 链接
 --- | ---
 金庸群侠传3D重制版 | [这是一个链接](https://github.com/jynew/jynew)
+天天萌泡泡 | [这是一个链接](https://github.com/superzhan/UnityBubbleGame)
+UnityMMO | [这是一个链接](https://github.com/liuhaopen/UnityMMO)
