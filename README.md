@@ -37,5 +37,5 @@ MT Framework(个人打造的框架) | [尚未开源](https://github.com/LaoMaoKa
 描述 | 链接
 --- | ---
 金庸群侠传3D重制版 | [这是一个链接](https://github.com/jynew/jynew)
-天天萌泡泡 | [这是一个链接](https://github.com/superzhan/UnityBubbleGame)
-UnityMMO | [这是一个链接](https://github.com/liuhaopen/UnityMMO)
+天天萌泡泡 | [真的是有意思](https://github.com/superzhan/UnityBubbleGame)
+UnityMMO | [真的有意思吗](https://github.com/liuhaopen/UnityMMO)
