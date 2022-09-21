@@ -34,4 +34,6 @@ MT Framework(个人打造的框架) | [尚未开源](https://github.com/LaoMaoKa
 >* [JEngine](https://github.com/JasonXuDeveloper/JEngine)
 
 ## 🤺 开源游戏收集
->* [ET](https://github.com/egametang/ET)
+描述 | 链接
+--- | ---
+金庸群侠传3D重制版 | [这是一个链接](https://github.com/jynew/jynew)
