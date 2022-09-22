@@ -10,7 +10,7 @@ MT Framework(个人打造的框架) | [尚未开源](https://github.com/LaoMaoKa
 小兵大作战 3D RPG 小游戏 | [尚未开源](https://github.com/LaoMaoKaKa/Tiny-Troopers)
 单机斗地主 | [尚未开源](https://github.com/LaoMaoKaKa/Fight-the-Landlord)
 糖果消除 | [Candy-Elimination](https://github.com/LaoMaoKaKa/Candy-Elimination)
-笨鸟先飞 | [尚未开源](https://github.com/LaoMaoKaKa/MT-Framework)
+笨鸟先飞_GameFramework | [尚未开源](https://github.com/LaoMaoKaKa/MT-Framework)
 五子棋 | [Gobang](https://github.com/LaoMaoKaKa/Gobang)
 
 
