@@ -13,7 +13,7 @@ MT Framework(个人打造的框架) | [尚未开源](https://github.com/LaoMaoKa
 笨鸟先飞_GameFramework | [尚未开源](https://github.com/LaoMaoKaKa/MT-Framework)
 五子棋 | [Gobang](https://github.com/LaoMaoKaKa/Gobang)
 
-
+/*
 ## 🤺 面 试 
 描述 | 链接
 --- | ---
@@ -22,7 +22,7 @@ MT Framework(个人打造的框架) | [尚未开源](https://github.com/LaoMaoKa
 设计模式 | [真的有意思吗](https://github.com/LaoMaoKaKa/Note/blob/main/Unity%E5%BD%93%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
 面试的交流 | [我也觉得有意思](https://github.com/LaoMaoKaKa/Note/blob/main/%E9%9D%A2%E8%AF%95%E7%9A%84%E4%BA%A4%E6%B5%81)
 选公司的注意事项 | [随口说说啦](https://github.com/LaoMaoKaKa/Note/blob/main/%E9%80%89%E5%85%AC%E5%8F%B8%E7%9A%84%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
-
+*/
 
 ## 🤺 大佬们的开源框架（仅做收集）
 >* [ET](https://github.com/egametang/ET)
