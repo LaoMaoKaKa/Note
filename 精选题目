@@ -53,6 +53,11 @@ C# 基础知识
 	StringBuilder.Insert 将字符串或对象插入到当前 StringBuilder 对象的指定索引处。
 	StringBuilder.Remove 从当前 StringBuilder 对象中移除指定数量的字符。
 	StringBuilder.Replace 替换指定索引处的指定字符。
+	
+5.浅拷贝 和 深拷贝 
+  
+  浅拷贝 获取一个引用类型指向堆的地址
+  深拷贝 会重新创造出一个数据
 
 6.public、private、protected、internal、sealed的区别
 
@@ -120,7 +125,12 @@ C# 基础知识
   参考资料太多，主要搜索，C#反射机制，lua，xlua性能等等。
 
 
-9.数组，Array，ArrayList的区别
+9.Arry ArrayList List之间的区别
+
+ 首先Array是数组，ArrayList是集合 List是泛型集合 
+ Array可以容纳基本类型和对象 存取快 增删改慢
+ ArrayList 存放的数据都会被转化成Object类型 存取慢 增删改快
+ List<>需要声明存储的单一类型 存取慢 增删改快
 
 10.委托和事件
 
