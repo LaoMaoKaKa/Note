@@ -85,6 +85,41 @@ C# 基础知识
 
 8.反射的实现原理
 
+  定义：运行时，动态获取类型信息,动态创建对象,动态访问成员的过程。 
+  另一种定义：审查元数据并收集元数据的信息。
+  元数据：编译后的最基本数据单元，就是一堆表，反射就是解析这些元数据。
+  反射是在运行期间获取到类、对象、方法、数据的一种手段
+  主要使用类库System.Reflection
+  反射要点：如何获取类型，根据类型来动态创建对象，反射获取方法以及动态调用方法，动态创建委托
+  
+ 一、动态获取类型信息
+  1.System.Reflection.Assembly.Load(“XXXX.dll”) 动态加载程序集
+  2.System.Type.GetType(“XXXX类名”); //动态获取某程序集中某类信息
+  3.obj.GetType(); //已知对象获取类信息 ——或者——typeof(类型) //已知类类型
+
+ 二、动态创建对象实例（上一步操作后获得类对象）
+  System.Activator.CreateInstance(Type type);
+
+ 三、动态访问成员调用方法（上一步操作后已获取实例对象）
+  System.Reflection.MethodInfo method = type.GetMethod(“方法名”);//获得方法
+  System.Reflection.MethodInfo.Invoke(object , new object[]{参数}) //调用的类实例和实例参数
+
+ 核心类
+  System.Reflection.Assembly 描述程序集
+  System.Type 描述类
+  System.Reflection.FieldInfo 描述了类的字段
+  System.Reflection.ConstructorInfo 描述构造函数
+  System.Reflection.MethodInfo 描述类的方法
+  System.Reflection.PropertyInfo 描述类的属性
+
+ 反射耗性能，lua是动态语言，一种小巧的脚本语言，会使用反射机制。
+
+ 知识扩展
+  手机端不支持编译，需要热更方案，通过lua的反射机制将旧的DLL文件替换成新的DLL文件。
+  Xlua是lua框架，由TX鹅肠进行维护，方便了C#与lua相互调用，C#端实现lua虚拟机
+  参考资料太多，主要搜索，C#反射机制，lua，xlua性能等等。
+
+
 9.数组，Array，ArrayList的区别
 
 10.委托和事件
