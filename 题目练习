@@ -1,2 +1,18 @@
 
---待填充
+精选题目
+
+C# 基础知识
+
+1.值类型和引用类型有什么不同
+
+2.装箱和拆箱
+
+3.接口和抽象类
+
+4.String、StringBuffer与StringBuilder之间区别
+
+5.浅拷贝和深拷贝
+
+6.public、private、protected、internal、sealed的区别
+
+7.foreach迭代器遍历和for循环遍历的区别
