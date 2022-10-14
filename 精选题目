@@ -46,6 +46,13 @@ C# 基础知识
     什么是线程安全，线程不安全？
       线程安全是指多个线程在执行同一段代码的时候采用加锁机制，使每次的执行结果和单线程执行的结果都是一样的，不存在执行结果的二义性。
       线程不安全就是不提供加锁机制保护，有可能出现多个线程先后更改数据造成所得到的数据是脏数据。
+      
+    相关方法
+	StringBuilder.Append 将信息追加到当前 StringBuilder 的结尾。
+	StringBuilder.AppendFormat 用带格式文本替换字符串中传递的格式说明符。
+	StringBuilder.Insert 将字符串或对象插入到当前 StringBuilder 对象的指定索引处。
+	StringBuilder.Remove 从当前 StringBuilder 对象中移除指定数量的字符。
+	StringBuilder.Replace 替换指定索引处的指定字符。
 
 6.public、private、protected、internal、sealed的区别
 
@@ -87,6 +94,26 @@ C# 基础知识
 12.字典Dictionary的内部实现原理
 
 13.结构体和类有什么区别
+
+14.请简述GC垃圾管理器，和GC产生的原因，并描述如何避免
+
+   GC垃圾回收机制，避免堆内存溢出，定期回收那些没有有效引用的对象内存
+   GC优化，就是优化堆内存，减少堆内存，即时回收堆内存
+   GC归属于CLR
+
+  如何避免
+     1.减少new的次数
+     2.字符串拼接使用stringbuilder，字符串比较先定义一个变量存储，防止产生无效内存
+     3.list，new时候，规定内存大小
+     4.如果要射线检测，应该使用避免GC的方法XXXXNoAlloc函数
+     5.foreach迭代器容易导致GC（目前Unity5.5已修复），使用For循环
+     6.使用静态变量，GC不会回收存在的对象，但静态变量的引用对象可能被回收
+     7.使用枚举替代字符串变量
+     8.调用gameobject.tag=="XXX"就会产生内存垃圾；那么采用GameObject.CompareTag()可以避免内存垃圾的产生：
+     9.不要在频繁调用的函数中反复进行堆内存分配，比如OnTriggerXXX，Update等函数
+     10.在Update函数中，运行有规律的但不需要每一帧执行的代码，可以使用计时器，比如1秒执行一次某些代码！！！
+
+
 
 .Net 与 Mono 的关系？
 .Net是一个语言平台
