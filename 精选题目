@@ -42,6 +42,10 @@ C# 基础知识
     （String为字符串常量，而StringBuilder和StringBuffer均为字符串变量，String对象一旦创建后该对象是不可更改的，后两者的对象是变量是可以更改的）
   3、安全区别
     String、StringBuffer是线程安全的，StringBuilder是线程不安全的（所以如果程序是单线程的使用StringBuilder效率高，如果是多线程使用StringBuffer或者String）
+    
+    什么是线程安全，线程不安全？
+      线程安全是指多个线程在执行同一段代码的时候采用加锁机制，使每次的执行结果和单线程执行的结果都是一样的，不存在执行结果的二义性。
+      线程不安全就是不提供加锁机制保护，有可能出现多个线程先后更改数据造成所得到的数据是脏数据。
 
 6.public、private、protected、internal、sealed的区别
 
