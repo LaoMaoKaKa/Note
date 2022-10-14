@@ -35,7 +35,13 @@ C# 基础知识
 
 4.String、StringBuffer与StringBuilder之间区别
 
-5.浅拷贝和深拷贝
+  1、基本区别
+    String的对象不可变，StringBuffer和StringBuilder的对象是可变的
+  2、性能区别
+    三者中StringBuilder执行速度最佳，StringBuffer次之，String的执行速度最慢
+    （String为字符串常量，而StringBuilder和StringBuffer均为字符串变量，String对象一旦创建后该对象是不可更改的，后两者的对象是变量是可以更改的）
+  3、安全区别
+    String、StringBuffer是线程安全的，StringBuilder是线程不安全的（所以如果程序是单线程的使用StringBuilder效率高，如果是多线程使用StringBuffer或者String）
 
 6.public、private、protected、internal、sealed的区别
 
