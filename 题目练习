@@ -16,3 +16,29 @@ C# 基础知识
 6.public、private、protected、internal、sealed的区别
 
 7.foreach迭代器遍历和for循环遍历的区别
+
+8.反射的实现原理
+
+9.数组，Array，ArrayList的区别
+
+10.委托和事件
+
+11.ref和out关键字有什么区别？知道Ref的深层原理是什么
+
+12.字典Dictionary的内部实现原理
+
+13.结构体和类有什么区别
+
+.Net 与 Mono 的关系？
+.Net是一个语言平台
+Mono为.Net提供集成开发环境，集成并实现了
+.NET的编译器、CLR 和基础类库，
+使得.Net既可以运行在windows也可以运行于 linux，Unix，Mac OS 等
+
+
+
+Lua 基础知识
+
+1.元表 和 元方法
+
+2.lua怎么模拟对象
