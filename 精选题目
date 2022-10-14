@@ -49,7 +49,32 @@ C# 基础知识
 
 6.public、private、protected、internal、sealed的区别
 
+  public全局、private类内部、protected派生类、internal本程序集
+  sealed声明类就不能继承，声明方法就是不能被重写
+
 7.foreach迭代器遍历和for循环遍历的区别
+
+  如果集合需要foreach遍历，是否可行，存在一定问题
+  foreach中的迭代变量item是的只读，不能对其进行修改，比如list.Remove（item）操作
+  foreach只读的时候记录下来，在对记录做操作，或者直接用for循环遍历
+  foreach对int[]数组循环已经不产生GC，避免对ArrayList进行遍历
+
+  for语句中初始化变量i的作用域，循环体内部可见。
+  通过索引进行遍历，可以根据索引对所遍历集合进行修改
+  unity中for循环使用lambda表达式注意闭包问题
+
+  Foreach遍历原理
+    任何集合类（Array）对象都有一个GetEnumerator()方法，该方法可以返回一个实现了 IEnumerator接口的对象。
+    这个返回的IEnumerator对象既不是集合类对象，也不是集合的元素类对象，它是一个独立的类对象。
+    通过这个实现了 IEnumerator接口对象A，可以遍历访问集合类对象中的每一个元素对象
+    对象A访问MoveNext方法，方法为真，就可以访问Current方法，读取到集合的元素。
+
+	    List<string> list = new List<string>() { "25", "哈3", "26", "花朵" };
+ 		  IEnumerator listEnumerator = list.GetEnumerator();
+        while (listEnumerator.MoveNext())
+        {
+            Console.WriteLine(listEnumerator.Current);
+        }
 
 8.反射的实现原理
 
@@ -76,3 +101,18 @@ Lua 基础知识
 1.元表 和 元方法
 
 2.lua怎么模拟对象
+
+
+Unity 
+
+1.有哪几种光源
+  点光源;平行光;聚光灯;区域光源
+  
+2.脚本生命周期
+
+
+
+
+
+
+
