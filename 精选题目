@@ -209,7 +209,13 @@ Lua 基础知识
   function 函数——Lua编写函数
   bool 布尔——true或者false
   thread线程——独立线路，用于执行协同程序
-
+  
+ 4.__index和__newindex元方法的区别
+ 
+  lua为了实现类似于c#继承的功能，有setmetatable函数，为一个子脚本设置一个父脚本，这时候就会用到__index和__newindex属性。
+  __index：当子脚本不存在被访问的元素的时候，lua就会调用__index，去父脚本里面查找该元素。
+  __newindex：当子脚本不存在被访问的元素，我们却给该元素赋值的时候，默认我们没有给__newindex赋值，lua会直接修改父脚本里面同名元素的值；
+  如果我们给__newindex赋值了，即指定了一个函数，定制了一个我们希望进行的操作，lua就会调用该函数，而不会直接去修改父脚本里面的同名元素的值。
 
 Unity 
 
